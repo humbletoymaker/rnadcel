@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A962C2531CB27DBD00E508A1 /* RNAdCel.m in Sources */ = {isa = PBXBuildFile; fileRef = A962C2521CB27DBD00E508A1 /* RNAdCel.m */; };
+		C66375DB1E093C2900350C01 /* RNAdCelBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C66375D81E093C2900350C01 /* RNAdCelBannerManager.m */; };
+		C66375DC1E093C2900350C01 /* RNAdCelBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C66375DA1E093C2900350C01 /* RNAdCelBannerView.m */; };
+		C6F0ED981E0378F900CB8C8E /* AdCelSDKPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6F0ED901E0378F900CB8C8E /* AdCelSDKPlugin.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A96DA7721C146D7200FC639B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A962C2511CB27DBD00E508A1 /* RNAdCel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAdCel.h; sourceTree = SOURCE_ROOT; };
+		A962C2521CB27DBD00E508A1 /* RNAdCel.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RNAdCel.m; sourceTree = SOURCE_ROOT; };
+		A96DA7741C146D7200FC639B /* libRNAdCelManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAdCelManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C646FDF71E0349E200A34069 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C646FDF91E034AD300A34069 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C646FDFB1E034B0000A34069 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C646FDFD1E034B2400A34069 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C646FDFF1E034B2A00A34069 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C66375D71E093C2900350C01 /* RNAdCelBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAdCelBannerManager.h; sourceTree = SOURCE_ROOT; };
+		C66375D81E093C2900350C01 /* RNAdCelBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAdCelBannerManager.m; sourceTree = SOURCE_ROOT; };
+		C66375D91E093C2900350C01 /* RNAdCelBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAdCelBannerView.h; sourceTree = SOURCE_ROOT; };
+		C66375DA1E093C2900350C01 /* RNAdCelBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAdCelBannerView.m; sourceTree = SOURCE_ROOT; };
+		C6F0ED8F1E0378F900CB8C8E /* AdCelSDKPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdCelSDKPlugin.h; sourceTree = "<group>"; };
+		C6F0ED901E0378F900CB8C8E /* AdCelSDKPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AdCelSDKPlugin.mm; sourceTree = "<group>"; };
+		C6F0ED911E0378F900CB8C8E /* AdCelSDKPluginDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdCelSDKPluginDefs.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96DA7711C146D7200FC639B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A96DA76B1C146D7200FC639B = {
+			isa = PBXGroup;
+			children = (
+				C646FDFF1E034B2A00A34069 /* AdSupport.framework */,
+				C646FDFD1E034B2400A34069 /* CoreMotion.framework */,
+				C646FDFB1E034B0000A34069 /* MessageUI.framework */,
+				C646FDF91E034AD300A34069 /* StoreKit.framework */,
+				C646FDF71E0349E200A34069 /* CoreTelephony.framework */,
+				C646FDB01E0342C100A34069 /* AdCelSDK */,
+				A96DA7761C146D7200FC639B /* RNAdCelManager */,
+				A96DA7751C146D7200FC639B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A96DA7751C146D7200FC639B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96DA7741C146D7200FC639B /* libRNAdCelManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96DA7761C146D7200FC639B /* RNAdCelManager */ = {
+			isa = PBXGroup;
+			children = (
+				A962C2511CB27DBD00E508A1 /* RNAdCel.h */,
+				A962C2521CB27DBD00E508A1 /* RNAdCel.m */,
+				C66375D71E093C2900350C01 /* RNAdCelBannerManager.h */,
+				C66375D81E093C2900350C01 /* RNAdCelBannerManager.m */,
+				C66375D91E093C2900350C01 /* RNAdCelBannerView.h */,
+				C66375DA1E093C2900350C01 /* RNAdCelBannerView.m */,
+			);
+			path = RNAdCelManager;
+			sourceTree = "<group>";
+		};
+		C646FDB01E0342C100A34069 /* AdCelSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C6F0ED8F1E0378F900CB8C8E /* AdCelSDKPlugin.h */,
+				C6F0ED901E0378F900CB8C8E /* AdCelSDKPlugin.mm */,
+				C6F0ED911E0378F900CB8C8E /* AdCelSDKPluginDefs.h */,
+			);
+			path = AdCelSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A96DA7731C146D7200FC639B /* RNAdCelManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96DA77D1C146D7200FC639B /* Build configuration list for PBXNativeTarget "RNAdCelManager" */;
+			buildPhases = (
+				A96DA7701C146D7200FC639B /* Sources */,
+				A96DA7711C146D7200FC639B /* Frameworks */,
+				A96DA7721C146D7200FC639B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAdCelManager;
+			productName = RNAdCelManager;
+			productReference = A96DA7741C146D7200FC639B /* libRNAdCelManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A96DA76C1C146D7200FC639B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = accosine;
+				TargetAttributes = {
+					A96DA7731C146D7200FC639B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = BMF2ZL32LL;
+					};
+				};
+			};
+			buildConfigurationList = A96DA76F1C146D7200FC639B /* Build configuration list for PBXProject "RNAdCelManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A96DA76B1C146D7200FC639B;
+			productRefGroup = A96DA7751C146D7200FC639B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96DA7731C146D7200FC639B /* RNAdCelManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96DA7701C146D7200FC639B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66375DC1E093C2900350C01 /* RNAdCelBannerView.m in Sources */,
+				A962C2531CB27DBD00E508A1 /* RNAdCel.m in Sources */,
+				C66375DB1E093C2900350C01 /* RNAdCelBannerManager.m in Sources */,
+				C6F0ED981E0378F900CB8C8E /* AdCelSDKPlugin.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A96DA77B1C146D7200FC639B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A96DA77C1C146D7200FC639B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A96DA77E1C146D7200FC639B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../../../ios/**",
+					"$(PROJECT_DIR)/AdCelSDK",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/AdCelSDK/SDK-iOS/AdCel.framework/Headers",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdCelSDK",
+					"$(PROJECT_DIR)/AdCelSDK/SDK-iOS",
+					"$(PROJECT_DIR)/AdCelSDK/SDK-iOS/OptionalProviders",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A96DA77F1C146D7200FC639B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../../../ios/**",
+					"$(PROJECT_DIR)/AdCelSDK",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/AdCelSDK/SDK-iOS/AdCel.framework/Headers",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdCelSDK",
+					"$(PROJECT_DIR)/AdCelSDK/SDK-iOS",
+					"$(PROJECT_DIR)/AdCelSDK/SDK-iOS/OptionalProviders",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96DA76F1C146D7200FC639B /* Build configuration list for PBXProject "RNAdCelManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96DA77B1C146D7200FC639B /* Debug */,
+				A96DA77C1C146D7200FC639B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96DA77D1C146D7200FC639B /* Build configuration list for PBXNativeTarget "RNAdCelManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96DA77E1C146D7200FC639B /* Debug */,
+				A96DA77F1C146D7200FC639B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A96DA76C1C146D7200FC639B /* Project object */;
+}

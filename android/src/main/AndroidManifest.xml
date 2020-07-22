@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="co.adcel.reactnative.android">
+
+    <application>
+
+        <meta-data
+            android:name="adcel.sdk.plugin"
+            android:value="react"
+            tools:replace="android:value"/>
+
+    </application>
+
+
+</manifest>

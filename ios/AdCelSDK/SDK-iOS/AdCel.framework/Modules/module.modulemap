@@ -1,0 +1,6 @@
+framework module AdCel {
+  umbrella header "AdCel.h"
+
+  export *
+  module * { export * }
+}

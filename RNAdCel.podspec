@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.dependency 'AdCel/AdColony'
   s.dependency 'AdCel/AmazonAd'
   s.dependency 'AdCel/Applovin'
-  s.dependency 'AdCel/AdMob'
+  s.dependency 'AdCel/AdMobSpecial'
   s.dependency 'AdCel/Facebook'
   s.dependency 'AdCel/MyTarget'
   s.dependency 'AdCel/MoPub'
